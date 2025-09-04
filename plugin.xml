@@ -9,9 +9,7 @@
     <repo>https://github.com/emgp/cordova-plugin-zeep.git</repo>
     <issue>https://github.com/emgp/cordova-plugin-zeep/issues</issue>
 
-    <dependency id="cordova-plugin-file" version=">=6.0.2" />
-
-    <js-module name="Zeep" src="www/Zeep.js">
+      <js-module name="Zeep" src="www/Zeep.js">
         <clobbers target="window.Zeep" />
     </js-module>
 
